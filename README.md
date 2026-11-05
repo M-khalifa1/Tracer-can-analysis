@@ -6,10 +6,6 @@
 
 **Source code, archived physical CAN traffic, offline intrusion-detection results, and reproducibility scripts** accompanying the revised manuscript:
 
-> **Experimental CAN Security Evaluation of a Commercial Unmanned Ground Vehicle with Intrusion Detection and Authentication Monitoring**  
-> Journal of Systems Architecture, manuscript **JSA-D-26-01018** (revision artifact; publication status should be confirmed independently).  
-> Mahmoud Ahmed Khalifa, Ahmad Taher Azar, and Walid El-Shafai.
-
 **Read this distinction first:** the original CAN traffic was collected from a **physical AgileX TRACER 2.0**. The alerts and event-to-alert matches presented here were subsequently **reconstructed offline** by processing the archived capture with the C IDS. The repository does **not** demonstrate real-time IDS latency, prevention by the unmodified robot controller, or detection reliability across independent campaigns.
 
 ## Contents
