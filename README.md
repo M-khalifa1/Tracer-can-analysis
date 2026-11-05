@@ -208,7 +208,6 @@ Publication of recorded CAN traffic, hardware photographs, correspondence, and l
 ## AI use, citation, and license
 
 - **AI-assisted documentation:** See [`AI_USAGE.md`](AI_USAGE.md). The disclosure is a draft to be reviewed and finalized by the human authors before journal submission.
-- **Citation:** Please cite the associated paper using its final bibliographic metadata once published. Until then, cite the manuscript title, authors, revision identifier `JSA-D-26-01018`, and this repository's commit hash. A commit hash makes the referenced artifact immutable.
 - **License:** [`LICENSE`](LICENSE) (MIT software-license text in the supplied archive, subject to rights-holder authorization).
 
 **Maintained research artifact:** [`M-khalifa1/Tracer-can-analysis`](https://github.com/M-khalifa1/Tracer-can-analysis). Please open an issue for a reproducibility discrepancy; include the OS/Python/GCC versions, command, exit code, and a sanitized error log (never tokens or secrets).
