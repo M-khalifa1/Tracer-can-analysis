@@ -1,0 +1,27 @@
+gcc -Wall -Wextra -O2 -Isrc src/ids_daemon.c    src/tracer_ids.c -lm -o bin/ids_daemon
+gcc -Wall -Wextra -O2 -Isrc src/signed_sender.c src/tracer_ids.c -lm -o bin/signed_sender
+gcc -Wall -Wextra -O2 -Isrc src/ids_runner.c    src/tracer_ids.c -lm -o bin/ids_runner
+gcc -Wall -Wextra -O2 -Isrc src/bench_hmac.c    src/tracer_ids.c -lm -o bin/bench_hmac
+gcc -Wall -Wextra -O2 -Isrc src/test_v3.c       src/tracer_ids.c -lm -o bin/test_v3
+./bin/test_v3
+
+=== TRACER IDS v3 regression tests ===
+  [PASS] No REPLAY cascade on 320 legit signed frames         
+[31m[NO_AUTH    ][CRITICAL] ID=0x111  0x111 command UNAUTHENTICATED — no valid 0x112 before next command[0m
+  [PASS] Overlapping unsigned 0x111 -> NO_AUTH for the first  
+[31m[STALE_SEQ  ][CRITICAL] ID=0x112  REPLAY: valid MAC but stale seq 12 (last=20) — captured frame replayed[0m
+  [PASS] Replayed valid frame with stale seq -> STALE_SEQ     
+[31m[BAD_MAC    ][CRITICAL] ID=0x112  MAC FAIL on 0x111: got 00ADBEEF exp DF5B83D1 — FORGED[0m
+[31m[BRUTE_FORCE][CRITICAL] ID=0x112  MAC brute-force: 5 failed companions within 1000 ms[0m
+  [PASS] Repeated forged MACs -> BRUTE_FORCE escalation       
+[31m[NO_AUTH    ][CRITICAL] ID=0x421  0x421 command UNAUTHENTICATED — no valid 0x112 within auth window[0m
+  [PASS] Authenticated 0x421 mode change -> no alert          
+  [PASS] Unauthenticated 0x421 mode change -> NO_AUTH         
+  [PASS] Clean 50 Hz feedback + 0x241 RC state -> no alert    
+[31m[NO_AUTH    ][CRITICAL] ID=0x111  0x111 command UNAUTHENTICATED — no valid 0x112 within auth window[0m
+[31m[VEL_JUMP   ][CRITICAL] ID=0x111  Velocity jump 100->250 mm/s (delta=150 > 100) — injection[0m
+  [PASS] Lowered vel_jump threshold triggers VEL_JUMP (sweepable) 
+
+  Result: 8 passed, 0 failed
+
+build complete -> bin/

@@ -1,0 +1,24 @@
+{
+  "manuscript_pages_marked": 39,
+  "manuscript_pages_clean": 39,
+  "figure_7_page": 32,
+  "figure_8_page": 33,
+  "figure_9_page": 33,
+  "bibliography_entries": 35,
+  "sweep_sha256": "092d2c4b79351169a59122399e6ff0afa4cc0eb3dbe3068672e6b09eeb092a52",
+  "validated_threshold_sha256": "210c803a2da91f91850dbd2f3ec9ba8b0354eda216eac56c8372462f88fea0ad",
+  "original_archive_integrity": "PASS",
+  "c_regression_tests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "python_targeted_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "limits": [
+    "physical A5 archival literal replay fidelity FAIL preserved",
+    "HMAC platform FILL_ME; no raw samples",
+    "one UGV/campaign; no physical additions"
+  ]
+}
