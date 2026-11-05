@@ -1,0 +1,16 @@
+{
+  "total_frames":31592,
+  "total_alerts":5453,
+  "by_type":{
+    "FLOOD":49,
+    "MODE_CHANGE":0,
+    "VEL_JUMP":60,
+    "REPLAY":0,
+    "UNKNOWN_ID":30,
+    "NO_AUTH":5011,
+    "BAD_MAC":56,
+    "BURST":3,
+    "BRUTE_FORCE":214,
+    "STALE_SEQ":30
+  }
+}

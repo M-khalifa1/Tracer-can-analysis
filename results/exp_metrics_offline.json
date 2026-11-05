@@ -1,0 +1,92 @@
+{
+  "attacks": {
+    "A1": {
+      "expect": "NO_AUTH",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    },
+    "A2": {
+      "expect": "NO_AUTH",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    },
+    "A4": {
+      "expect": "FLOOD",
+      "events": 1,
+      "detected": 1,
+      "detection_rate": 100.0,
+      "ci95": [
+        20.7,
+        100.0
+      ]
+    },
+    "A5": {
+      "expect": "STALE_SEQ",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    },
+    "A6": {
+      "expect": "BAD_MAC",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    },
+    "A7": {
+      "expect": "VEL_JUMP",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    },
+    "A8": {
+      "expect": "BRUTE_FORCE",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    },
+    "A9": {
+      "expect": "UNKNOWN_ID",
+      "events": 30,
+      "detected": 30,
+      "detection_rate": 100.0,
+      "ci95": [
+        88.6,
+        100.0
+      ]
+    }
+  },
+  "benign": {
+    "benign_frames": 108139,
+    "false_positives": 1,
+    "fpr_percent": 0.001,
+    "by_rule": {
+      "BURST": 1
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "status": "QUALIFIED_ARCHIVED_EVIDENCE",
+  "interpretation": "Observed IDS alerts, not proof of the stronger attack semantics",
+  "capture_sha256": "5f7e2ca1ef2e55904fa1d68899dc65a5b65f27763f30254f282b22d8a8f46094",
+  "strict_audit_status": "FAIL",
+  "strict_issues": [
+    "A5: NOT a byte-for-byte replay of earlier seq=2 capture"
+  ],
+  "original_frames": 34419,
+  "phase_count": 10,
+  "attacks": {
+    "A1": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": []
+    },
+    "A2": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": []
+    },
+    "A4": {
+      "reconstructed": 1,
+      "matched_alerts_one_to_one": 1,
+      "expected": 1,
+      "structural_findings": []
+    },
+    "A5": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": [
+        "A5: NOT a byte-for-byte replay of earlier seq=2 capture"
+      ]
+    },
+    "A6": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": []
+    },
+    "A7": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": []
+    },
+    "A8": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": []
+    },
+    "A9": {
+      "reconstructed": 30,
+      "matched_alerts_one_to_one": 30,
+      "expected": 30,
+      "structural_findings": []
+    }
+  },
+  "A5_semantics": {
+    "actual_archived_experiment": "crafted valid-MAC stale-sequence injection",
+    "old_claim_literal_replay_supported": false,
+    "source_pair": {
+      "command_can_id": "0x111",
+      "command_payload_hex": "0028000000000000",
+      "companion_can_id": "0x112",
+      "companion_payload_hex": "CA01FA0900020000"
+    },
+    "injection_pair_example": {
+      "command_can_id": "0x111",
+      "command_payload_hex": "00C8000000000000",
+      "companion_can_id": "0x112",
+      "companion_payload_hex": "197B9FE800020000"
+    },
+    "verbatim_replays_of_source_pair": 0,
+    "attempts_observed": 30,
+    "ids_alert_type": "STALE_SEQ",
+    "note": "The software-corrected A5 generator has passed mock validation, not a new physical run."
+  },
+  "A4_semantics": {
+    "observed": "One 5-second ~1kHz frame-flooding session; FLOOD alerts",
+    "not_established": "Physical controller denial of service or legitimate command starvation"
+  },
+  "benign": {
+    "frames_outside_attack_windows": 10414,
+    "alerts_outside_attack_windows": 0,
+    "alerts_by_rule": {}
+  },
+  "limitations": [
+    "Physical IDS alerts were reconstructed by offline replay; no online detector latency measurement.",
+    "30 attacks in one physical recording are not 30 independent sessions.",
+    "The first historical capture must not be represented as a successful literal replay.",
+    "Do not equate no wheel motion during zero-velocity flooding with denial of service.",
+    "This derived analysis is based on the supplied archived file, not independently attested capture provenance."
+  ]
+}

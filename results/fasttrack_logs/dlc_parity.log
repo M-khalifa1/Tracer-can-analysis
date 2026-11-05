@@ -1,0 +1,7 @@
+test_mode_command_preserves_real_dlc_in_mock_and_offline (__main__.DLCParityTests.test_mode_command_preserves_real_dlc_in_mock_and_offline) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+wrote 636 frames -> /tmp/tracer_dlc_r3ryd1u7/captured.csv

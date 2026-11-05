@@ -1,0 +1,8 @@
+{
+  "platform": "FILL_ME (deployment host, e.g. Ubuntu 24.04, Intel i7-xxxx)",
+  "iterations": 2000,
+  "sign_us": {"min":1.111,"mean":2.889,"median":1.122,"p99":3.385,"max":1903.531},
+  "verify_us": {"min":1.091,"mean":1.678,"max":538.753},
+  "can_control_period_us": 20000,
+  "overhead_percent_of_control_period": 0.0144
+}

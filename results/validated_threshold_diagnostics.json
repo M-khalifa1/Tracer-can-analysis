@@ -1,0 +1,773 @@
+{
+  "evidence_type": "controlled synthetic single-scenario threshold diagnostics",
+  "independence_warning": "Rows do not represent independent physical trials.",
+  "r6_valid_companion": [
+    {
+      "window_us": 2000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 2000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 4000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 6000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 8000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 12000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 16000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 400,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 2000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 4000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 7000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 9000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 12000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 18000,
+      "valid_mac": true,
+      "no_auth_alerts": 0,
+      "false_rejection": false
+    },
+    {
+      "window_us": 20000,
+      "auth_delay_us": 25000,
+      "valid_mac": true,
+      "no_auth_alerts": 2,
+      "false_rejection": true
+    }
+  ],
+  "r6_missing_companion": [
+    {
+      "window_us": 2000,
+      "missing_companion_no_auth_alerts": 1
+    },
+    {
+      "window_us": 4000,
+      "missing_companion_no_auth_alerts": 1
+    },
+    {
+      "window_us": 6000,
+      "missing_companion_no_auth_alerts": 1
+    },
+    {
+      "window_us": 8000,
+      "missing_companion_no_auth_alerts": 1
+    },
+    {
+      "window_us": 12000,
+      "missing_companion_no_auth_alerts": 1
+    },
+    {
+      "window_us": 16000,
+      "missing_companion_no_auth_alerts": 1
+    },
+    {
+      "window_us": 20000,
+      "missing_companion_no_auth_alerts": 1
+    }
+  ],
+  "r8_legitimate_resumption": [
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 100,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 200,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 300,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 400,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 500,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 700,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 150,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 250,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 350,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 450,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 600,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 800,
+      "signed_commands": true,
+      "burst_false_alert": false,
+      "burst_alert_count": 0
+    },
+    {
+      "idle_threshold_ms": 1000,
+      "legitimate_pause_ms": 1100,
+      "signed_commands": true,
+      "burst_false_alert": true,
+      "burst_alert_count": 1
+    }
+  ]
+}

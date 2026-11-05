@@ -1,0 +1,1996 @@
+{
+  "status": "PASS",
+  "meaning": "scripted-capture structural check; not proof of online detection, real DoS, or external generalization",
+  "frames_sha256": "a15f2ea4296228404e71bb3048366bc26d0278c90e9c9a596455531ebe1207e2",
+  "alerts_sha256": "88a7d4bfa0cb561aced732831a2d07eeb26f1f29e1d2f1e035598a6b547fc25c",
+  "total_captured_frames": 31592,
+  "phase_count": 10,
+  "expected_trial_count": 30,
+  "issues": [],
+  "attacks": {
+    "A1": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 10500000,
+          "t1_us": 10500000,
+          "matched_alert": {
+            "timestamp_us": 10519999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 10700000,
+          "t1_us": 10700000,
+          "matched_alert": {
+            "timestamp_us": 10710000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 10900000,
+          "t1_us": 10900000,
+          "matched_alert": {
+            "timestamp_us": 10920000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 11099999,
+          "t1_us": 11099999,
+          "matched_alert": {
+            "timestamp_us": 11108999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 11299999,
+          "t1_us": 11299999,
+          "matched_alert": {
+            "timestamp_us": 11319000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 11500000,
+          "t1_us": 11500000,
+          "matched_alert": {
+            "timestamp_us": 11519999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 11700000,
+          "t1_us": 11700000,
+          "matched_alert": {
+            "timestamp_us": 11717999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 11900000,
+          "t1_us": 11900000,
+          "matched_alert": {
+            "timestamp_us": 11920000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 12099999,
+          "t1_us": 12099999,
+          "matched_alert": {
+            "timestamp_us": 12117000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 12299999,
+          "t1_us": 12299999,
+          "matched_alert": {
+            "timestamp_us": 12319999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 12500000,
+          "t1_us": 12500000,
+          "matched_alert": {
+            "timestamp_us": 12516000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 12700000,
+          "t1_us": 12700000,
+          "matched_alert": {
+            "timestamp_us": 12720000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 12900000,
+          "t1_us": 12900000,
+          "matched_alert": {
+            "timestamp_us": 12914999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 13099999,
+          "t1_us": 13099999,
+          "matched_alert": {
+            "timestamp_us": 13119999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 13299999,
+          "t1_us": 13299999,
+          "matched_alert": {
+            "timestamp_us": 13313999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 13500000,
+          "t1_us": 13500000,
+          "matched_alert": {
+            "timestamp_us": 13519999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 13700000,
+          "t1_us": 13700000,
+          "matched_alert": {
+            "timestamp_us": 13713000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 13900000,
+          "t1_us": 13900000,
+          "matched_alert": {
+            "timestamp_us": 13920000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 14099999,
+          "t1_us": 14099999,
+          "matched_alert": {
+            "timestamp_us": 14111999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 14299999,
+          "t1_us": 14299999,
+          "matched_alert": {
+            "timestamp_us": 14319999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 14500000,
+          "t1_us": 14500000,
+          "matched_alert": {
+            "timestamp_us": 14510999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 14700000,
+          "t1_us": 14700000,
+          "matched_alert": {
+            "timestamp_us": 14720000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 14900000,
+          "t1_us": 14900000,
+          "matched_alert": {
+            "timestamp_us": 14910000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 15099999,
+          "t1_us": 15099999,
+          "matched_alert": {
+            "timestamp_us": 15119999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 15299999,
+          "t1_us": 15299999,
+          "matched_alert": {
+            "timestamp_us": 15309000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 15500000,
+          "t1_us": 15500000,
+          "matched_alert": {
+            "timestamp_us": 15519000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 15700000,
+          "t1_us": 15700000,
+          "matched_alert": {
+            "timestamp_us": 15720000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 15900000,
+          "t1_us": 15900000,
+          "matched_alert": {
+            "timestamp_us": 15917999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 16099999,
+          "t1_us": 16099999,
+          "matched_alert": {
+            "timestamp_us": 16119999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 16299999,
+          "t1_us": 16299999,
+          "matched_alert": {
+            "timestamp_us": 16316999,
+            "alert_type": "NO_AUTH"
+          }
+        }
+      ],
+      "captured_host_frames": 30
+    },
+    "A2": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 19000000,
+          "t1_us": 19000000,
+          "matched_alert": {
+            "timestamp_us": 19019999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 19200000,
+          "t1_us": 19200000,
+          "matched_alert": {
+            "timestamp_us": 19214999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 19400000,
+          "t1_us": 19400000,
+          "matched_alert": {
+            "timestamp_us": 19420000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 19599999,
+          "t1_us": 19599999,
+          "matched_alert": {
+            "timestamp_us": 19614000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 19799999,
+          "t1_us": 19799999,
+          "matched_alert": {
+            "timestamp_us": 19819999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 20000000,
+          "t1_us": 20000000,
+          "matched_alert": {
+            "timestamp_us": 20013000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 20200000,
+          "t1_us": 20200000,
+          "matched_alert": {
+            "timestamp_us": 20220000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 20400000,
+          "t1_us": 20400000,
+          "matched_alert": {
+            "timestamp_us": 20411999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 20599999,
+          "t1_us": 20599999,
+          "matched_alert": {
+            "timestamp_us": 20619999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 20799999,
+          "t1_us": 20799999,
+          "matched_alert": {
+            "timestamp_us": 20811000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 21000000,
+          "t1_us": 21000000,
+          "matched_alert": {
+            "timestamp_us": 21019999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 21200000,
+          "t1_us": 21200000,
+          "matched_alert": {
+            "timestamp_us": 21210000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 21400000,
+          "t1_us": 21400000,
+          "matched_alert": {
+            "timestamp_us": 21420000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 21599999,
+          "t1_us": 21599999,
+          "matched_alert": {
+            "timestamp_us": 21608999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 21799999,
+          "t1_us": 21799999,
+          "matched_alert": {
+            "timestamp_us": 21819000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 22000000,
+          "t1_us": 22000000,
+          "matched_alert": {
+            "timestamp_us": 22019999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 22200000,
+          "t1_us": 22200000,
+          "matched_alert": {
+            "timestamp_us": 22217999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 22400000,
+          "t1_us": 22400000,
+          "matched_alert": {
+            "timestamp_us": 22420000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 22599999,
+          "t1_us": 22599999,
+          "matched_alert": {
+            "timestamp_us": 22617000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 22799999,
+          "t1_us": 22799999,
+          "matched_alert": {
+            "timestamp_us": 22819999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 23000000,
+          "t1_us": 23000000,
+          "matched_alert": {
+            "timestamp_us": 23016000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 23200000,
+          "t1_us": 23200000,
+          "matched_alert": {
+            "timestamp_us": 23220000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 23400000,
+          "t1_us": 23400000,
+          "matched_alert": {
+            "timestamp_us": 23414999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 23599999,
+          "t1_us": 23599999,
+          "matched_alert": {
+            "timestamp_us": 23619999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 23799999,
+          "t1_us": 23799999,
+          "matched_alert": {
+            "timestamp_us": 23813999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 24000000,
+          "t1_us": 24000000,
+          "matched_alert": {
+            "timestamp_us": 24019999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 24200000,
+          "t1_us": 24200000,
+          "matched_alert": {
+            "timestamp_us": 24213000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 24400000,
+          "t1_us": 24400000,
+          "matched_alert": {
+            "timestamp_us": 24420000,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 24599999,
+          "t1_us": 24599999,
+          "matched_alert": {
+            "timestamp_us": 24611999,
+            "alert_type": "NO_AUTH"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 24799999,
+          "t1_us": 24799999,
+          "matched_alert": {
+            "timestamp_us": 24819999,
+            "alert_type": "NO_AUTH"
+          }
+        }
+      ],
+      "captured_host_frames": 30
+    },
+    "A4": {
+      "expected": 1,
+      "reconstructed": 1,
+      "detected": 1,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 27500000,
+          "t1_us": 32499000,
+          "matched_alert": {
+            "timestamp_us": 27601000,
+            "alert_type": "FLOOD"
+          }
+        }
+      ],
+      "captured_host_frames": 5000
+    },
+    "A5": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 37200000,
+          "t1_us": 37200400,
+          "matched_alert": {
+            "timestamp_us": 37200400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 37400000,
+          "t1_us": 37400399,
+          "matched_alert": {
+            "timestamp_us": 37400399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 37599999,
+          "t1_us": 37600399,
+          "matched_alert": {
+            "timestamp_us": 37600399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 37799999,
+          "t1_us": 37800400,
+          "matched_alert": {
+            "timestamp_us": 37800400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 38000000,
+          "t1_us": 38000400,
+          "matched_alert": {
+            "timestamp_us": 38000400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 38200000,
+          "t1_us": 38200400,
+          "matched_alert": {
+            "timestamp_us": 38200400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 38400000,
+          "t1_us": 38400399,
+          "matched_alert": {
+            "timestamp_us": 38400399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 38599999,
+          "t1_us": 38600399,
+          "matched_alert": {
+            "timestamp_us": 38600399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 38799999,
+          "t1_us": 38800400,
+          "matched_alert": {
+            "timestamp_us": 38800400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 39000000,
+          "t1_us": 39000400,
+          "matched_alert": {
+            "timestamp_us": 39000400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 39200000,
+          "t1_us": 39200400,
+          "matched_alert": {
+            "timestamp_us": 39200400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 39400000,
+          "t1_us": 39400399,
+          "matched_alert": {
+            "timestamp_us": 39400399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 39599999,
+          "t1_us": 39600399,
+          "matched_alert": {
+            "timestamp_us": 39600399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 39799999,
+          "t1_us": 39800400,
+          "matched_alert": {
+            "timestamp_us": 39800400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 40000000,
+          "t1_us": 40000400,
+          "matched_alert": {
+            "timestamp_us": 40000400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 40200000,
+          "t1_us": 40200400,
+          "matched_alert": {
+            "timestamp_us": 40200400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 40400000,
+          "t1_us": 40400399,
+          "matched_alert": {
+            "timestamp_us": 40400399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 40599999,
+          "t1_us": 40600399,
+          "matched_alert": {
+            "timestamp_us": 40600399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 40799999,
+          "t1_us": 40800400,
+          "matched_alert": {
+            "timestamp_us": 40800400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 41000000,
+          "t1_us": 41000400,
+          "matched_alert": {
+            "timestamp_us": 41000400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 41200000,
+          "t1_us": 41200400,
+          "matched_alert": {
+            "timestamp_us": 41200400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 41400000,
+          "t1_us": 41400399,
+          "matched_alert": {
+            "timestamp_us": 41400399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 41599999,
+          "t1_us": 41600399,
+          "matched_alert": {
+            "timestamp_us": 41600399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 41799999,
+          "t1_us": 41800400,
+          "matched_alert": {
+            "timestamp_us": 41800400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 42000000,
+          "t1_us": 42000400,
+          "matched_alert": {
+            "timestamp_us": 42000400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 42200000,
+          "t1_us": 42200400,
+          "matched_alert": {
+            "timestamp_us": 42200400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 42400000,
+          "t1_us": 42400399,
+          "matched_alert": {
+            "timestamp_us": 42400399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 42599999,
+          "t1_us": 42600399,
+          "matched_alert": {
+            "timestamp_us": 42600399,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 42799999,
+          "t1_us": 42800400,
+          "matched_alert": {
+            "timestamp_us": 42800400,
+            "alert_type": "STALE_SEQ"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 43000000,
+          "t1_us": 43000400,
+          "matched_alert": {
+            "timestamp_us": 43000400,
+            "alert_type": "STALE_SEQ"
+          }
+        }
+      ],
+      "captured_host_frames": 260
+    },
+    "A6": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 45700000,
+          "t1_us": 45700400,
+          "matched_alert": {
+            "timestamp_us": 45700400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 45900000,
+          "t1_us": 45900399,
+          "matched_alert": {
+            "timestamp_us": 45900399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 46099999,
+          "t1_us": 46100399,
+          "matched_alert": {
+            "timestamp_us": 46100399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 46299999,
+          "t1_us": 46300400,
+          "matched_alert": {
+            "timestamp_us": 46300400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 46500000,
+          "t1_us": 46500400,
+          "matched_alert": {
+            "timestamp_us": 46500400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 46700000,
+          "t1_us": 46700400,
+          "matched_alert": {
+            "timestamp_us": 46700400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 46900000,
+          "t1_us": 46900399,
+          "matched_alert": {
+            "timestamp_us": 46900399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 47099999,
+          "t1_us": 47100399,
+          "matched_alert": {
+            "timestamp_us": 47100399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 47299999,
+          "t1_us": 47300400,
+          "matched_alert": {
+            "timestamp_us": 47300400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 47500000,
+          "t1_us": 47500400,
+          "matched_alert": {
+            "timestamp_us": 47500400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 47700000,
+          "t1_us": 47700400,
+          "matched_alert": {
+            "timestamp_us": 47700400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 47900000,
+          "t1_us": 47900399,
+          "matched_alert": {
+            "timestamp_us": 47900399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 48099999,
+          "t1_us": 48100399,
+          "matched_alert": {
+            "timestamp_us": 48100399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 48299999,
+          "t1_us": 48300400,
+          "matched_alert": {
+            "timestamp_us": 48300400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 48500000,
+          "t1_us": 48500400,
+          "matched_alert": {
+            "timestamp_us": 48500400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 48700000,
+          "t1_us": 48700400,
+          "matched_alert": {
+            "timestamp_us": 48700400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 48900000,
+          "t1_us": 48900399,
+          "matched_alert": {
+            "timestamp_us": 48900399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 49099999,
+          "t1_us": 49100399,
+          "matched_alert": {
+            "timestamp_us": 49100399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 49299999,
+          "t1_us": 49300400,
+          "matched_alert": {
+            "timestamp_us": 49300400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 49500000,
+          "t1_us": 49500400,
+          "matched_alert": {
+            "timestamp_us": 49500400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 49700000,
+          "t1_us": 49700400,
+          "matched_alert": {
+            "timestamp_us": 49700400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 49900000,
+          "t1_us": 49900399,
+          "matched_alert": {
+            "timestamp_us": 49900399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 50099999,
+          "t1_us": 50100399,
+          "matched_alert": {
+            "timestamp_us": 50100399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 50299999,
+          "t1_us": 50300400,
+          "matched_alert": {
+            "timestamp_us": 50300400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 50500000,
+          "t1_us": 50500400,
+          "matched_alert": {
+            "timestamp_us": 50500400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 50700000,
+          "t1_us": 50700400,
+          "matched_alert": {
+            "timestamp_us": 50700400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 50900000,
+          "t1_us": 50900399,
+          "matched_alert": {
+            "timestamp_us": 50900399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 51099999,
+          "t1_us": 51100399,
+          "matched_alert": {
+            "timestamp_us": 51100399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 51299999,
+          "t1_us": 51300400,
+          "matched_alert": {
+            "timestamp_us": 51300400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 51500000,
+          "t1_us": 51500400,
+          "matched_alert": {
+            "timestamp_us": 51500400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        }
+      ],
+      "captured_host_frames": 60
+    },
+    "A7": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 54220000,
+          "t1_us": 54220400,
+          "matched_alert": {
+            "timestamp_us": 54220000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 54519999,
+          "t1_us": 54520400,
+          "matched_alert": {
+            "timestamp_us": 54500000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 54819999,
+          "t1_us": 54820399,
+          "matched_alert": {
+            "timestamp_us": 54799999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 55119999,
+          "t1_us": 55120399,
+          "matched_alert": {
+            "timestamp_us": 55099999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 55420000,
+          "t1_us": 55420399,
+          "matched_alert": {
+            "timestamp_us": 55400000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 55720000,
+          "t1_us": 55720400,
+          "matched_alert": {
+            "timestamp_us": 55700000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 56019999,
+          "t1_us": 56020400,
+          "matched_alert": {
+            "timestamp_us": 56000000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 56319999,
+          "t1_us": 56320399,
+          "matched_alert": {
+            "timestamp_us": 56299999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 56619999,
+          "t1_us": 56620399,
+          "matched_alert": {
+            "timestamp_us": 56599999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 56920000,
+          "t1_us": 56920399,
+          "matched_alert": {
+            "timestamp_us": 56900000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 57220000,
+          "t1_us": 57220400,
+          "matched_alert": {
+            "timestamp_us": 57200000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 57519999,
+          "t1_us": 57520400,
+          "matched_alert": {
+            "timestamp_us": 57500000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 57819999,
+          "t1_us": 57820399,
+          "matched_alert": {
+            "timestamp_us": 57799999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 58119999,
+          "t1_us": 58120399,
+          "matched_alert": {
+            "timestamp_us": 58099999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 58420000,
+          "t1_us": 58420399,
+          "matched_alert": {
+            "timestamp_us": 58400000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 58720000,
+          "t1_us": 58720400,
+          "matched_alert": {
+            "timestamp_us": 58700000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 59019999,
+          "t1_us": 59020400,
+          "matched_alert": {
+            "timestamp_us": 59000000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 59319999,
+          "t1_us": 59320399,
+          "matched_alert": {
+            "timestamp_us": 59299999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 59619999,
+          "t1_us": 59620399,
+          "matched_alert": {
+            "timestamp_us": 59599999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 59920000,
+          "t1_us": 59920399,
+          "matched_alert": {
+            "timestamp_us": 59900000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 60220000,
+          "t1_us": 60220400,
+          "matched_alert": {
+            "timestamp_us": 60200000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 60519999,
+          "t1_us": 60520400,
+          "matched_alert": {
+            "timestamp_us": 60500000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 60819999,
+          "t1_us": 60820399,
+          "matched_alert": {
+            "timestamp_us": 60799999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 61119999,
+          "t1_us": 61120399,
+          "matched_alert": {
+            "timestamp_us": 61099999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 61420000,
+          "t1_us": 61420399,
+          "matched_alert": {
+            "timestamp_us": 61400000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 61720000,
+          "t1_us": 61720400,
+          "matched_alert": {
+            "timestamp_us": 61700000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 62019999,
+          "t1_us": 62020400,
+          "matched_alert": {
+            "timestamp_us": 62000000,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 62319999,
+          "t1_us": 62320399,
+          "matched_alert": {
+            "timestamp_us": 62299999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 62619999,
+          "t1_us": 62620399,
+          "matched_alert": {
+            "timestamp_us": 62599999,
+            "alert_type": "VEL_JUMP"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 62920000,
+          "t1_us": 62920399,
+          "matched_alert": {
+            "timestamp_us": 62900000,
+            "alert_type": "VEL_JUMP"
+          }
+        }
+      ],
+      "captured_host_frames": 120
+    },
+    "A8": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 65700000,
+          "t1_us": 65840399,
+          "matched_alert": {
+            "timestamp_us": 65700400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 66000000,
+          "t1_us": 66140399,
+          "matched_alert": {
+            "timestamp_us": 66000400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 66299999,
+          "t1_us": 66440399,
+          "matched_alert": {
+            "timestamp_us": 66300400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 66599999,
+          "t1_us": 66740400,
+          "matched_alert": {
+            "timestamp_us": 66600399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 66900000,
+          "t1_us": 67040400,
+          "matched_alert": {
+            "timestamp_us": 66900399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 67200000,
+          "t1_us": 67340399,
+          "matched_alert": {
+            "timestamp_us": 67200400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 67500000,
+          "t1_us": 67640399,
+          "matched_alert": {
+            "timestamp_us": 67500400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 67799999,
+          "t1_us": 67940399,
+          "matched_alert": {
+            "timestamp_us": 67800400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 68099999,
+          "t1_us": 68240400,
+          "matched_alert": {
+            "timestamp_us": 68100399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 68400000,
+          "t1_us": 68540400,
+          "matched_alert": {
+            "timestamp_us": 68400399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 68700000,
+          "t1_us": 68840399,
+          "matched_alert": {
+            "timestamp_us": 68700400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 69000000,
+          "t1_us": 69140399,
+          "matched_alert": {
+            "timestamp_us": 69000400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 69299999,
+          "t1_us": 69440399,
+          "matched_alert": {
+            "timestamp_us": 69300400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 69599999,
+          "t1_us": 69740400,
+          "matched_alert": {
+            "timestamp_us": 69600399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 69900000,
+          "t1_us": 70040400,
+          "matched_alert": {
+            "timestamp_us": 69900399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 70200000,
+          "t1_us": 70340399,
+          "matched_alert": {
+            "timestamp_us": 70200400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 70500000,
+          "t1_us": 70640399,
+          "matched_alert": {
+            "timestamp_us": 70500400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 70799999,
+          "t1_us": 70940399,
+          "matched_alert": {
+            "timestamp_us": 70800400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 71099999,
+          "t1_us": 71240400,
+          "matched_alert": {
+            "timestamp_us": 71100399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 71400000,
+          "t1_us": 71540400,
+          "matched_alert": {
+            "timestamp_us": 71400399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 71700000,
+          "t1_us": 71840399,
+          "matched_alert": {
+            "timestamp_us": 71700400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 72000000,
+          "t1_us": 72140399,
+          "matched_alert": {
+            "timestamp_us": 72000400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 72299999,
+          "t1_us": 72440399,
+          "matched_alert": {
+            "timestamp_us": 72300400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 72599999,
+          "t1_us": 72740400,
+          "matched_alert": {
+            "timestamp_us": 72600399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 72900000,
+          "t1_us": 73040400,
+          "matched_alert": {
+            "timestamp_us": 72900399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 73200000,
+          "t1_us": 73340399,
+          "matched_alert": {
+            "timestamp_us": 73200400,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 73500000,
+          "t1_us": 73640399,
+          "matched_alert": {
+            "timestamp_us": 73500400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 73799999,
+          "t1_us": 73940399,
+          "matched_alert": {
+            "timestamp_us": 73800400,
+            "alert_type": "BRUTE_FORCE"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 74099999,
+          "t1_us": 74240400,
+          "matched_alert": {
+            "timestamp_us": 74100399,
+            "alert_type": "BAD_MAC"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 74400000,
+          "t1_us": 74540400,
+          "matched_alert": {
+            "timestamp_us": 74400399,
+            "alert_type": "BRUTE_FORCE"
+          }
+        }
+      ],
+      "captured_host_frames": 480
+    },
+    "A9": {
+      "expected": 30,
+      "reconstructed": 30,
+      "detected": 30,
+      "all_expected_events_detected": true,
+      "frame_shape_errors": [],
+      "events": [
+        {
+          "event": 1,
+          "t0_us": 77200000,
+          "t1_us": 77200000,
+          "matched_alert": {
+            "timestamp_us": 77200000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 2,
+          "t0_us": 77400000,
+          "t1_us": 77400000,
+          "matched_alert": {
+            "timestamp_us": 77400000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 3,
+          "t0_us": 77599999,
+          "t1_us": 77599999,
+          "matched_alert": {
+            "timestamp_us": 77599999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 4,
+          "t0_us": 77799999,
+          "t1_us": 77799999,
+          "matched_alert": {
+            "timestamp_us": 77799999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 5,
+          "t0_us": 78000000,
+          "t1_us": 78000000,
+          "matched_alert": {
+            "timestamp_us": 78000000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 6,
+          "t0_us": 78200000,
+          "t1_us": 78200000,
+          "matched_alert": {
+            "timestamp_us": 78200000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 7,
+          "t0_us": 78400000,
+          "t1_us": 78400000,
+          "matched_alert": {
+            "timestamp_us": 78400000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 8,
+          "t0_us": 78599999,
+          "t1_us": 78599999,
+          "matched_alert": {
+            "timestamp_us": 78599999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 9,
+          "t0_us": 78799999,
+          "t1_us": 78799999,
+          "matched_alert": {
+            "timestamp_us": 78799999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 10,
+          "t0_us": 79000000,
+          "t1_us": 79000000,
+          "matched_alert": {
+            "timestamp_us": 79000000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 11,
+          "t0_us": 79200000,
+          "t1_us": 79200000,
+          "matched_alert": {
+            "timestamp_us": 79200000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 12,
+          "t0_us": 79400000,
+          "t1_us": 79400000,
+          "matched_alert": {
+            "timestamp_us": 79400000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 13,
+          "t0_us": 79599999,
+          "t1_us": 79599999,
+          "matched_alert": {
+            "timestamp_us": 79599999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 14,
+          "t0_us": 79799999,
+          "t1_us": 79799999,
+          "matched_alert": {
+            "timestamp_us": 79799999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 15,
+          "t0_us": 80000000,
+          "t1_us": 80000000,
+          "matched_alert": {
+            "timestamp_us": 80000000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 16,
+          "t0_us": 80200000,
+          "t1_us": 80200000,
+          "matched_alert": {
+            "timestamp_us": 80200000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 17,
+          "t0_us": 80400000,
+          "t1_us": 80400000,
+          "matched_alert": {
+            "timestamp_us": 80400000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 18,
+          "t0_us": 80599999,
+          "t1_us": 80599999,
+          "matched_alert": {
+            "timestamp_us": 80599999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 19,
+          "t0_us": 80799999,
+          "t1_us": 80799999,
+          "matched_alert": {
+            "timestamp_us": 80799999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 20,
+          "t0_us": 81000000,
+          "t1_us": 81000000,
+          "matched_alert": {
+            "timestamp_us": 81000000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 21,
+          "t0_us": 81200000,
+          "t1_us": 81200000,
+          "matched_alert": {
+            "timestamp_us": 81200000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 22,
+          "t0_us": 81400000,
+          "t1_us": 81400000,
+          "matched_alert": {
+            "timestamp_us": 81400000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 23,
+          "t0_us": 81599999,
+          "t1_us": 81599999,
+          "matched_alert": {
+            "timestamp_us": 81599999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 24,
+          "t0_us": 81799999,
+          "t1_us": 81799999,
+          "matched_alert": {
+            "timestamp_us": 81799999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 25,
+          "t0_us": 82000000,
+          "t1_us": 82000000,
+          "matched_alert": {
+            "timestamp_us": 82000000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 26,
+          "t0_us": 82200000,
+          "t1_us": 82200000,
+          "matched_alert": {
+            "timestamp_us": 82200000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 27,
+          "t0_us": 82400000,
+          "t1_us": 82400000,
+          "matched_alert": {
+            "timestamp_us": 82400000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 28,
+          "t0_us": 82599999,
+          "t1_us": 82599999,
+          "matched_alert": {
+            "timestamp_us": 82599999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 29,
+          "t0_us": 82799999,
+          "t1_us": 82799999,
+          "matched_alert": {
+            "timestamp_us": 82799999,
+            "alert_type": "UNKNOWN_ID"
+          }
+        },
+        {
+          "event": 30,
+          "t0_us": 83000000,
+          "t1_us": 83000000,
+          "matched_alert": {
+            "timestamp_us": 83000000,
+            "alert_type": "UNKNOWN_ID"
+          }
+        }
+      ],
+      "captured_host_frames": 30
+    }
+  },
+  "benign": {
+    "frames_outside_attack_windows": 8626,
+    "alerts_outside_attack_windows": 0,
+    "alerts_by_rule": {}
+  }
+}
