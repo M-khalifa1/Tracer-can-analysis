@@ -179,7 +179,6 @@ These commands regenerate **software-derived** R1/R3 and R6/R8 diagnostics. They
 
 ![Figure 8 — R6/R8 timing sensitivity](publication/figures/Fig_8_8K.png)
 
-**Figure 9 (HMAC chart) is absent from the current manuscript**, although Table 8 still reports historical HMAC benchmark summaries. The corresponding source JSON `results/today_final_audit/hmac_ubuntu_200k.json` is **missing from this ZIP**. Treat those specific numerical values as not independently reproducible from the public archive until the genuine benchmark record and platform provenance are restored, or revise the manuscript to remove the unsupported numerical claims. The legacy `publication/render_figures_7_9.py` currently fails due to that missing file; use `render_figures_7_8.py` for Figures 7–8 instead.
 
 The exact Figure 5–6 image exports from the submitted manuscript are archived in `publication/figures/Fig.5.png` and `Fig.6.png`. The supplied `publication/render_figures_5_6.py` independently recomputes their underlying alert-bin and category data and saves reconstructed graphics under `publication/figures/reproduced/` without overwriting the manuscript exports; styling need not be identical.
 
