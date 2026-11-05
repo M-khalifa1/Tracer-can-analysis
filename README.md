@@ -110,7 +110,6 @@ No separately validated physical **A3** phase is part of this archive. The 211 s
 ├── results/                   # archived frames, alerts, metrics, diagnostics
 ├── publication/               # evidence traceability and figures 5–8
 ├── docs/                      # additional methodology and guidance
-└── historical/                # prior material, if approved for public release
 ```
 
 **Source priority:** `src/` and `harness/` contain executable source. Files under `bin/` are historical compiled outputs and should not be used as evidence of a fresh build. Source should be rebuilt on the reader's machine.
