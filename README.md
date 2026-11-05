@@ -102,13 +102,12 @@ No separately validated physical **A3** phase is part of this archive. The 211 s
 ├── LICENSE                    # software license; verify data release rights separately
 ├── Makefile                   # builds C tools and runs 8 C tests
 ├── requirements.txt           # Python dependencies for offline analysis
-├── .github/workflows/         # optional automated offline validation
 ├── src/                       # IDS, runner, HMAC implementation, C tests
 ├── harness/                   # capture converter, synthetic tests, sweeps
 ├── scripts/                   # evidence verification and reconciliation
 ├── data/live_capture/         # preserved physical CAN capture
 ├── results/                   # archived frames, alerts, metrics, diagnostics
-├── publication/               # evidence traceability and figures 5–8
+├── publication/               # evidence traceability and paper figures 5–8
 ├── docs/                      # additional methodology and guidance
 ```
 
@@ -147,7 +146,7 @@ python3 scripts/verify_publication_evidence.py
 python3 scripts/reconcile_archived_capture.py
 ```
 
-The replay verification checks the capture, regenerates CAN frame/alert records in a **temporary directory**, and compares alert categories against the archived summary. The reconciliation also preserves the original A5 strict-audit finding instead of converting it to a false PASS.
+The replay verification checks the capture checksum, regenerates CAN frame/alert records in a **temporary directory**, and compares alert categories against the archived summary. The reconciliation also preserves the original A5 strict-audit finding instead of converting it to a false PASS.
 
 ### 4. Repeat the synthetic threshold studies
 
@@ -163,8 +162,8 @@ These commands regenerate **software-derived** R1/R3 and R6/R8 diagnostics. They
 
 | Figure | Interpretation | Source | Command |
 |---|---|---|---|
-| **5** | Offline alert timeline | `results/archived_strict_frames_al.csv` | `python3 publication/render_figures_5_6.py` |
-| **6** | Offline alert category distribution | Same archived alert CSV | Same command |
+| **5** | Offline alert timeline | `results/archived_strict_frames_al.csv` | `python3 publication/render_figures_5_6.py` (output under `reproduced/`) |
+| **6** | Offline alert category distribution | Same archived alert CSV | Same command; original manuscript image preserved |
 | **7** | R1/R3 sensitivity (software tests) | `results/sweeps.json` | `python3 publication/render_figures_7_8.py` |
 | **8** | R6/R8 sensitivity (software tests) | `results/validated_threshold_diagnostics.json` | Same command |
 
@@ -180,6 +179,9 @@ These commands regenerate **software-derived** R1/R3 and R6/R8 diagnostics. They
 
 ![Figure 8 — R6/R8 timing sensitivity](publication/figures/Fig_8_8K.png)
 
+**Figure 9 (HMAC chart) is absent from the current manuscript**, although Table 8 still reports historical HMAC benchmark summaries. The corresponding source JSON `results/today_final_audit/hmac_ubuntu_200k.json` is **missing from this ZIP**. Treat those specific numerical values as not independently reproducible from the public archive until the genuine benchmark record and platform provenance are restored, or revise the manuscript to remove the unsupported numerical claims. The legacy `publication/render_figures_7_9.py` currently fails due to that missing file; use `render_figures_7_8.py` for Figures 7–8 instead.
+
+The exact Figure 5–6 image exports from the submitted manuscript are archived in `publication/figures/Fig.5.png` and `Fig.6.png`. The supplied `publication/render_figures_5_6.py` independently recomputes their underlying alert-bin and category data and saves reconstructed graphics under `publication/figures/reproduced/` without overwriting the manuscript exports; styling need not be identical.
 
 ## Evidence provenance and limitations
 
@@ -188,7 +190,7 @@ These commands regenerate **software-derived** R1/R3 and R6/R8 diagnostics. They
 3. **A5:** physical data show crafted valid-MAC stale-sequence injections, with 30 matched `STALE_SEQ` occurrences. The original `results/archived_strict_audit.json` reports `FAIL` **only against the stronger historical expectation of byte-for-byte authenticated-pair replay**. The source evidence and that finding remain preserved. Literal authenticated-pair replay was studied separately in software.
 4. **A4:** a five-second high-rate session produced `FLOOD` alerts; the capture does not establish command starvation or successful denial of service.
 5. **False positives:** 0 alerts among 10,414 frames outside designated attack windows is a specific exclusion-window observation, not an operational false-positive rate.
-6. **HMAC:** the archived 200,000-iteration host benchmark records summary statistics without raw per-call samples or a verified CPU identity. It is **not** a Figure 9 result for the current paper and must not be represented as an embedded timing measurement.
+6. **HMAC:** the manuscript reports an archived 200,000-iteration host benchmark summary, but the original JSON is not included in this ZIP, nor are raw per-call samples or a verified CPU identity available. It is **not** a Figure 9 result for the current paper and must not be represented as an embedded timing measurement.
 7. **Experimental keys:** the implementation contains a fixed laboratory HMAC key for testing. It is not production key management and must not be reused as an operational secret.
 
 Additional sources: [`publication/EVIDENCE_TRACEABILITY.md`](publication/EVIDENCE_TRACEABILITY.md), [`publication/PROVENANCE_LIMITATIONS.md`](publication/PROVENANCE_LIMITATIONS.md), [`results/archived_claims_reconciled.md`](results/archived_claims_reconciled.md).
