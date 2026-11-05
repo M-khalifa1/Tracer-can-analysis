@@ -1,0 +1,4 @@
+# Python components only. C build requires GCC + GNU Make (see README).
+matplotlib>=3.7,<4
+numpy>=1.24,<3
+pytest>=7,<10
