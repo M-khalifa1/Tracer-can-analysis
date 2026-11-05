@@ -180,7 +180,6 @@ These commands regenerate **software-derived** R1/R3 and R6/R8 diagnostics. They
 
 ![Figure 8 — R6/R8 timing sensitivity](publication/figures/Fig_8_8K.png)
 
-> **Figure 9 was removed from the current publication scope.** The archived HMAC summary is historical material and is not presented as independently reproducible raw timing data. Do not run the legacy `publication/render_figures_7_9.py` to regenerate publication figures: it creates a now-excluded Figure 9. The new scripts above generate Figures 5–8 only.
 
 ## Evidence provenance and limitations
 
